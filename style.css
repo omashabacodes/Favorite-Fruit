@@ -1,0 +1,98 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredericka the Great', cursive;
+    background-color: #FFC23C;
+    height: 100vh;
+    max-height: 100vh;
+}
+.introBox {
+    display: flex;
+    min-height: 20vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-justify: center;
+    text-align-last: left;
+    padding-top: 10px;
+}   
+
+.introText {
+    width: 70vw;
+}
+
+.selectorBox {
+    display: flex;
+    min-height: 40vh;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+.selectorTextBox {
+    font-size: 10px;
+    align-content: flex-start;
+}
+
+.firstDiv {
+    position: absolute;
+    margin: 35px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.secondSelectorBox {
+    position: absolute;
+    margin: 35px;
+}
+
+.thirdSelectorBox {
+    position: absolute;
+    margin:35px;
+}
+.fruitPic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 70vh;
+    width: 60vw;  
+}
+
+.refreshBox {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 25vh;
+    font-size: 10px;
+    margin-top: 40px;
+}
+
+img {
+    height: 230px;
+}
+
+@media (min-width: 600px) {
+    .introBox {
+        font-size: 30px;
+    }
+    .selectorTextBox {
+        font-size: 20px;
+    }
+    .refreshBox {
+        font-size: 25px;
+        min-height: 35vh;
+        margin-top: 0;
+    }
+    img {
+        height: 400px;
+    }
+    .introText {
+        width: 50vw;
+    }
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet"> 
+    <title>Your Favorite Fruit</title>
+</head>
+<body>
+    <div class="introBox">
+        <span class="introText">Have you ever thought to yourself: "Man, I love fruit! But which one do I love the most?". Well, I'm here to help you out.</span>
+    </div>
+    <div class="selectorBox">
+        <div class="selectorTextBox">
+        <p id="selectortext">Pick you preference:</p>
+        </div>
+        <div class="firstDiv">
+            <select name="fruits" class="firstSelect" id="firstselect" autocomplete="off">
+                <option selected>Pick</option>
+                <option value="sweet" id="sweet">Sweet</option>
+                <option value="sour" id="sour">Sour</option>
+            </select>
+        </div>
+        <div class="secondSelectorBox">
+            <div class="secondDiv"></div>
+            <div class="thirdDiv"></div>
+        </div>
+        <div class="thirdSelectorBox">
+            <div class="fourthDiv"></div>
+            <div class="fifthDiv"></div>
+        </div>
+    </div>  
+    <div class="refreshBox">
+        <p>Click <button onclick="location.reload();">here</button>
+            to go again </p>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
